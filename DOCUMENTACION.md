@@ -50,7 +50,37 @@ Para poder poner más incapié a la hora de la identificación de las personas v
 
 ## 3. Diseño de la interfaz
 ### 3.1 Mapa de navegación
+```mermaid
+graph TD
+    %% Destinos principales de la Navigation Bar
+    Inicio[Inicio] <--> Catalogo[Catálogo]
+    Inicio <--> Favoritos[Mis Favoritos]
+    Catalogo <--> Favoritos
+
+    %% Flujo principal de navegación y compra
+    Inicio --> Detalle[Detalle de Producto]
+    Catalogo --> Detalle
+    Favoritos --> Detalle
+
+    Detalle -.->|Abre bottom sheet| Guia[Guía de Tallas]
+    Detalle --> Carrito[Mi Carrito]
+
+    Carrito --> Checkout[Checkout]
+    Checkout --> Confirmacion[Confirmación]
+    Confirmacion -->|Volver al inicio| Inicio
+   ``` 
 ### 3.2 Wireframes
+En ese apartado veremos los wireframes de baja fidelidad en escalas grises, en un formato base de 360 x 800 dp
+
+![0 - Inicio sesión](capturas/wireframes/0 - Inicio sesión.png)
+![1 - Inicio](capturas/wireframes/1 - Inicio.png)
+![2 - Catálogo](capturas/wireframes/2 - Catálogo.png)
+![3 - Detalle de producto](capturas/wireframes/3 - Detalle de producto.png)
+![4 - Carrito](capturas/wireframes/4 - Carrito.png)
+![5 - Checkout](capturas/wireframes/5 - Checkout.png)
+![6 - Confirmación](capturas/wireframes/6 - Confirmación.png)
+![7 - Mis favoritos](capturas/wireframes/7 - Mis favoritos.png)
+
 ### 3.3 Guía de estilo Material Design 3
 ### 3.4 Prototipo de alta fidelidad
 
