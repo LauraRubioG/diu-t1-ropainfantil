@@ -72,14 +72,21 @@ graph TD
 ### 3.2 Wireframes
 En ese apartado veremos los wireframes de baja fidelidad en escalas grises, en un formato base de 360 x 800 dp
 
-![0 - Inicio sesión](capturas/wireframes/0 - Inicio sesión.png)
-![1 - Inicio](capturas/wireframes/1 - Inicio.png)
-![2 - Catálogo](capturas/wireframes/2 - Catálogo.png)
-![3 - Detalle de producto](capturas/wireframes/3 - Detalle de producto.png)
-![4 - Carrito](capturas/wireframes/4 - Carrito.png)
-![5 - Checkout](capturas/wireframes/5 - Checkout.png)
-![6 - Confirmación](capturas/wireframes/6 - Confirmación.png)
-![7 - Mis favoritos](capturas/wireframes/7 - Mis favoritos.png)
+![0 - Inicio sesión](<capturas/wireframes/0 - Inicio sesión.png>)
+
+![1 - Inicio](<capturas/wireframes/1 - Inicio.png>)
+
+![2 - Catálogo](<capturas/wireframes/2 - Catálogo.png>)
+
+![3 - Detalle de producto](<capturas/wireframes/3 - Detalle de producto.png>)
+
+![4 - Carrito](<capturas/wireframes/4 - Carrito.png>)
+
+![5 - Checkout](<capturas/wireframes/5 - Checkout.png>)
+
+![6 - Confirmación](<capturas/wireframes/6 - Confirmación.png>)
+
+![7 - Mis favoritos](<capturas/wireframes/7 - Mis favoritos.png>)
 
 ### 3.3 Guía de estilo Material Design 3
 ### 3.4 Prototipo de alta fidelidad
