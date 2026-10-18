@@ -168,6 +168,32 @@ Para desarrollarla en Android Studio:
 - Usaria los tokens de estilos.json, y cogería directamente el XML.
 - Conectaría "Mis Favoritos" a una base de datos local para que no se borre la lista al cerrar la app.
 - Haría antes pruebas con personas relaes para poner lectores de pantalla para las personas que tengan problema de vista puedan usarla sin problema.
+
 ## 6. Referencias bibliográficas 
+Google. (2023). *Material 3 Design Kit* [Archivo de Figma]. Figma Community. https://www.figma.com/community/file/1035203688168086460
+
+Google. (2026). *Material Theme Builder* [Plugin de Figma]. Material Design 3. https://m3.material.io/foundations/customization
+
+H&M. (s.f.). *Guía de tallas*. Atención al cliente. https://www2.hm.com/es_es/service-clients/sizeguide/sizing-faq.html
+
+Hoober, S. (2013, 18 de febrero). *How do users really hold mobile devices?* UXmatters. https://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php
+
+Inditex. (2026). *Zara* (Versión de Android) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.inditex.zara&hl=es
+
+Mayoral Moda Infantil SAU. (2026, 22 de septiembre). *Mayoral - Moda infantil* (Versión de Android) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.mayoral.appv2&hl=es
+
+Nielsen, J., & Budiu, R. (2013). *Mobile usability*. New Riders. https://www.nngroup.com/books/mobile-usability/
+
+World Wide Web Consortium. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1* (Recomendación del W3C). W3C. https://www.w3.org/Translations/WCAG21-es/Figma. (2026). *Figma: The collaborative interface design tool*. Figma. https://www.figma.com/
+
+Hassan Montero, Y. (2015). *Experiencia de Usuario: Principios y Métodos*. UX en Español. https://www.uxenespanol.com/experiencia-de-usuario
+
+Kiabi. (2026). *KIABI, compras y moda online* (Versión de Android) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.pictime.kiabi.activity
+
+Mango. (2026). *Mango: Moda y compras* (Versión de Android) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.mango.app
+
+WebAIM. (2026). *Contrast Checker*. Web Accessibility In Mind. https://webaim.org/resources/contrastchecker/
+
+
 
 Palabra del día : 29
