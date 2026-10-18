@@ -33,7 +33,20 @@ Para poder poner más incapié a la hora de la identificación de las personas v
 
 - **Personaje 2: Manolo, abuelo:** Tiene 68 años y un nieto de 3 del que está completamente enamorado. Le encanta poder comprarle regalos, pero con la ropa se lia mucho, no tiene claro las tallas, siempre que va a las tiendas no sabe donde encontrar ropa, las etiquetas son pequeñas y las autocajas le cuesta mucho. Saber que con solo un boton puede acceder a comparle ropa chula y pagar con solo un click le facilita mucho la compra. Una app accesible, con letrs grandes y tallas claras le daría la satisfacción de poder comprarle ropa a su nieto siempre que quiera.
 ### 2.3 Análisis de la competencia
+| Aplicación | Qué hace bien | Qué hace mal | Qué me llevo para PicoPato |
+| :--- | :--- | :--- | :--- |
+| **Zara Kids** | Su disño se caracteriza por ser minimalista y tener un set de fotos incomparable con otras tiendas, siendo muy cuidadosos con sus prndas. | El acceso a la guía de talla se complica mucho, teniendo que hacer muchos clics para ello, haciendo que sea confusa. | Fichas de los productos claros, centrandonos en las imagenes y garantizando un alto contraste. |
+| **H&M Kids** | Tiene una estructura de tallas interactivas con peso y altura. | Sus tarjetas son pesadas, saturando mucho el diseño y la bista. | Implementar los *filter chips* de Material Design para hacer que la busqueda sea más agil y no encie el producto. |
+| **Mayoral** | Solo trabajan con ropa infantil, por lo que la categorización de ropa por meses y años es exelente. | Su interfax esta anticuada, falta de actualización visual. | La estructura de categorías, divididas por edades, pero manteniendo el diseño limpio, y dejando la barra de navegación clara. |
 ### 2.4 Insights y hallazgos clave
+- **Miedo limpieza de carrito:** Lo compradores tienen miedo de limpiar el carrito o borrar al hacer scroll alguna prunda del carrito
+    - *Decisión del dieño:* Para que eso no paso hemos puedo un Snackbar en la parte inferior de la pantalla, avisando de que un producto ha sido elimnado y con la posibilidad de Deshacer el acto. Con ello facilitamos el tener que buscar la prenda de nuevo y a la vez eliminamos la frustración que pueden llegar a tener al no saber si han eliminado una prenda o no.
+- **Dudas con las tallas:** Los compradores dudan muchismo con las medidas de las tallas, ya que en cada sitio las tallas cambian de tallaje.
+    - *Decisión del diseño:* En cada pantalla de detalle de cada prenda, se puede encontrar un botón de *Guía de Talla*, aparte de la facilidad de uso que tiene, ya que es un *bottom sheet* interactivo que se abre solo su la misma pantalla, facilitando así al usuario su mejor vista. Cuenta con una guía de talla muy detallada.
+- **Uso de la app con una mano:** Muchos de nuestros comparadores, madres y padres sobre todo, usan el móvil con una mano, con el pulgar, ya que hacen mil cosas a la vez.
+    - *Decisión del diseño:* Para ello he fijado el *Navigation Bar* y los botones principales como, el Pagar o Añadir al carrito, en la zona inferior de la pantalla, para garantizar su accesibilidad total.
+- **Desconfianza en el pago:** A la hora del pago puede haber mucha desconfiaza por introducir mal un dato y que el sistema no indique como avanzar.
+    -*Decisión del diseño:* Para ello hemos añadido en la pantalla de checkout un mensaje de error en los estados que estén incorrectos, indicando así que es lo que falla y facilitando el pago
 
 ## 3. Diseño de la interfaz
 ### 3.1 Mapa de navegación
