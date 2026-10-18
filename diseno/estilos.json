@@ -1,0 +1,29 @@
+{
+  "propietario": "LauraRubioG",
+  "tienda": "PicoPato",
+  "colorSemilla": "#61859A",
+  "esquema": {
+    "claro":  { "primary": "#1B6585", "onPrimary": "#FFFFFF", "primaryContainer": "#C3E8FF", "onPrimaryContainer": "#004C68",
+                "secondary": "#4E616D", "onSecondary": "#FFFFFF", "tertiary": "#605A7D", "onTertiary": "#FFFFFF",
+                "surface": "#F6FAFE", "onSurface": "#171C1F", "error": "#BA1A1A", "onError": "#FFFFFF" },
+    "oscuro": { "primary": "#8FCFF3", "onPrimary": "#003549", "primaryContainer": "#004C68", "onPrimaryContainer": "#C3E8FF",
+                "secondary": "#B5C9D7", "onSecondary": "#20333D", "tertiary": "#C9C1EA", "onTertiary": "#312C4C",
+                "surface": "#0F1417", "onSurface": "#DFE3E7", "error": "#FFB4AB", "onError": "#690005" }
+  },
+  "tipografia": {
+    "familia": "Roboto",
+    "roles": {
+      "headlineSmall": { "tamano": 24, "interlineado": 32, "peso": 400 },
+      "titleLarge":    { "tamano": 22, "interlineado": 28, "peso": 400 },
+      "titleMedium":   { "tamano": 16, "interlineado": 24, "peso": 500 },
+      "bodyLarge":     { "tamano": 16, "interlineado": 24, "peso": 400 },
+      "labelLarge":    { "tamano": 14, "interlineado": 20, "peso": 500 }
+    }
+  },
+  "espaciado": { "base": 8, "margenPantalla": 16, "columnas": 4, "areaTactilMinima": 48 },
+  "componentes": ["Top app bar", "Navigation bar", "Card", "Filter chip", "Button", "Text field", "Snackbar", "Bottom sheet"],
+  "componentesPropios": [
+    { "nombre": "TarjetaProducto", "variantes": ["normal", "favorito", "agotado"] },
+    { "nombre": "SelectorTalla",   "variantes": ["disponible", "seleccionada", "sin stock"] }
+  ]
+}

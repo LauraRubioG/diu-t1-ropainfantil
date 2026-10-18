@@ -89,10 +89,51 @@ En ese apartado veremos los wireframes de baja fidelidad en escalas grises, en u
 ![7 - Mis favoritos](<capturas/wireframes/7 - Mis favoritos.png>)
 
 ### 3.3 Guía de estilo Material Design 3
+Nustra app PicoPato está hecha con la herramienta de Material Design 3. Todos los colores, tipografía y medidas estan en el archivo estilos.json, en la carpeta de diseno de este repositorio. Mi idea principal es la de crear una interfaz clara, agaradable y limpia en la que la protagonista sea la ropa.
+
+**Color**
+- Color semilla: usé un azul (#61859A). Lo elegí porque para los padres comprar rápido teniendo mil cosas en la cabeza, tener una app que transmita tranquilidad y limpeza es clave.
+
+- Tokens semánticos:
+    - Modo Claro: (#1B6585) primary, para las acciones principales y un (#F6FAFE) surface muy clarito para el fondo.
+    - Modo Oscuro: usé la herramienta de Material Theme Builder para evitar el negro y usar los contrarios a ellos. (#0F1417) para el surface y (#8FCFF3) para el primario.
+
+**Constraste y accesibilidad**
+Para que tengo tenga orden y armonía he usado las siguientes combinaciones:
+
+| Esquema | Pareja de color | Color | On-Color | Ratio | Cumplimiento |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Claro | primary / onPrimary | #1B6585 | #FFFFFF | 7.12:1 | Supera AA |
+| Claro | primaryContainer / onPrimaryContainer | #C3E8FF | #004C68 | 7.45:1 | Supera AA |
+| Claro | surface / onSurface | #F6FAFE | #171C1F | 15.30:1 | Supera AA |
+| Claro | error / onError | #BA1A1A | #FFFFFF | 6.46:1 | Supera AA |
+| Oscuro | primary / onPrimary | #8FCFF3 | #003549 | 7.30:1 | Supera AA |
+| Oscuro | surface / onSurface | #0F1417 | #DFE3E7 | 14.10:1 | Supera AA |
+
+**Rejilla y espacios**
+- Movil: Frame de 360x800 px
+- Columnas: 4 columnas con márgenes laterales de 16 dp y una separación de 8 dp. Está en no ver para no dañar el diseño, pero se pueden activar de nuevo en todas para que se ve que se cumple
+- Áreas táctiles: todos los botones, ya sea todo aquello que se pueda pulsar, tiene al menos 48x48 dp cómo mínimo. Esto es crucial para que se pueda pulsar bien los botones con una mano.
+
+
 ### 3.4 Prototipo de alta fidelidad
+El prototipo final refleja desde el inicio de sesion de la app hasta el final del proceso de pago. Además he creado dos componentes que se pueden ver en la parte de componentes del figma.
+
+**Interacciones principales**
+1. **Inicio y Catálogo:** En ambas podemos ver una navegación por edades, en vez de los tipicos niñi y niña, podemos ver la diferenciación entre bebés, piquitos y patazos, divididas entre edades. Usando filter chips para no ensuciar la pantalla.
+
+2. **Detalle de producto:** Las tallas tienen distintos tipos de estado, disponible, seleccionado, y agotado. Además tiene una guía de tallas como un bottom shet. Facil y de abrir y cerrar para hacerlo más sencillo y práctico.
+
+3. **Carrito:** en el se puede ver todos los articulos que se han preparado para el pago. También está la opción de sumar o restar las unidades y si se borra algo sale notificado, para poder darle a Deshacer en caso de que haya sido por error.
+
+4. **Checkout y errores:** Si hay algún error a la hora de rellenar el formulario del pago, saldrá un mensaje de error indicando el fallo.
+
+Para las pantallas de Inicio y Detalle se han incluido las versiones en Modo Oscuro.
 
 ## 4. Validación y pruebas
 ### 4.1 Metodología
+
+
 ### 4.2 Resultados
 ### 4.3 Iteraciones y mejoras
 
