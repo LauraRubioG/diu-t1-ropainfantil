@@ -71,21 +71,21 @@ graph TD
    ``` 
 ### 3.2 Wireframes
 En ese apartado veremos los wireframes de baja fidelidad en escalas grises, en un formato base de 360 x 800 dp
-
+**Inicio sesion**
 ![0 - Inicio sesión](<capturas/wireframes/0 - Inicio sesión.png>)
-
+**Inicio**
 ![1 - Inicio](<capturas/wireframes/1 - Inicio.png>)
-
+**Catálogo**
 ![2 - Catálogo](<capturas/wireframes/2 - Catálogo.png>)
-
+**Detalle de producto**
 ![3 - Detalle de producto](<capturas/wireframes/3 - Detalle de producto.png>)
-
+**Carrito**
 ![4 - Carrito](<capturas/wireframes/4 - Carrito.png>)
-
+**Checkout**
 ![5 - Checkout](<capturas/wireframes/5 - Checkout.png>)
-
+**Confirmación**
 ![6 - Confirmación](<capturas/wireframes/6 - Confirmación.png>)
-
+**Mis favoritos**
 ![7 - Mis favoritos](<capturas/wireframes/7 - Mis favoritos.png>)
 
 ### 3.3 Guía de estilo Material Design 3
@@ -153,12 +153,21 @@ Viendo como salieron las pruebas, hice cambios en la pagina de detalles:
 ![Antes](<capturas/iteracion/Antes.png>)
 
 - **Después:** Metí una linea de texto antes del botón de añadir al carrito, para confirmarle a los clientes la talla seleccionada, con las medidas y el precio de la prenda.
+
 ![Después](<capturas/iteracion/Después.png>)
 
 ## 5. Entrega y documentación final
 ### 5.1 Justificación del diseño propuesto
-### 5.2 Recomendaciones y pasos a seguir
+PicoPato esta diseñado pensado sobretodo en aquellas madres y padres que se pasan el haciendo malabares con todo, siempre van a tope, y la moayoria de veces no tienen ni un ratito para ellos. Por ello, mi app estaá diseñada para que sea clara y concisa sin duda alguna, con botones grandes y barra de navegación clara.
 
+Usa los colores y pasos de Material Design 3 que asegura que sea accesible y no sedentone. Siendo además muy intuitivi, rojo error, y boton azul avanzar.
+
+### 5.2 Recomendaciones y pasos a seguir
+Para desarrollarla en Android Studio:
+
+- Usaria los tokens de estilos.json, y cogería directamente el XML.
+- Conectaría "Mis Favoritos" a una base de datos local para que no se borre la lista al cerrar la app.
+- Haría antes pruebas con personas relaes para poner lectores de pantalla para las personas que tengan problema de vista puedan usarla sin problema.
 ## 6. Referencias bibliográficas 
 
 Palabra del día : 29
