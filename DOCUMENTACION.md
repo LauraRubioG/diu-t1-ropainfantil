@@ -132,10 +132,28 @@ Para las pantallas de Inicio y Detalle se han incluido las versiones en Modo Osc
 
 ## 4. Validación y pruebas
 ### 4.1 Metodología
-
+Para ver si el diseño de PicoPato funciona hice pruebas rápidas con mis compañeros Marta y David. Se probó tres cosas:
+- Encontrar el Vestido Pato desde la pantalla de inicio
+- Mirar la guía de tallas, cerrarla y elegir la talla para 4 años
+- Meter el vestido en el carrito y hacer que pagan, fallando a proposito.
 
 ### 4.2 Resultados
+Medí si lo conseguían o no y el timpo que tardaban
+
+| Participante | Tarea 1 (Tiempo/Errores/Éxito) | Tarea 2 (Tiempo/Errores/Éxito) | Tarea 3 (Tiempo/Errores/Éxito) |
+| :--- | :--- | :--- | :--- |
+| **David** | 12 s / 0 / Sí | 24 s / 1 / Sí | 36 s / 0 / Sí |
+| **Marta** | 15 s / 0 / Sí | 18 s / 0 / Sí | 42 s / 0 / Sí |
+
+Gracias a esto pude obtener que el flujo de actividad va muy fluido, al poder el botón azul oscuro hace que llame mucho la atención. Se entendió bien el mensaje y el borde rojo al indicar que había un fallo en el formulario. El problema es que cuando marcaban la talla de 4 años faltaba que algo le confirmara del todo que esa era la talla que iba a comprar antes de darle a añadir al carrito.
+
 ### 4.3 Iteraciones y mejoras
+Viendo como salieron las pruebas, hice cambios en la pagina de detalles:
+- **Antes:** le dabas a las talla de 4 años y el botón se marcaba pero solo eso, no hay nada que confirme que se haya marcado, dejando en dudas.
+![Antes](<capturas/iteracion/Antes.png>)
+
+- **Después:** Metí una linea de texto antes del botón de añadir al carrito, para confirmarle a los clientes la talla seleccionada, con las medidas y el precio de la prenda.
+![Después](<capturas/iteracion/Después.png>)
 
 ## 5. Entrega y documentación final
 ### 5.1 Justificación del diseño propuesto
