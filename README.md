@@ -32,7 +32,6 @@ A continuación se encuentran los enlaces directos al espacio de trabajo. El arc
 *   🎨 **[Archivo de diseño en Figma (Editable)]** -> [ARCHIVO_DE_FIGMA](https://www.figma.com/design/Z7zB8doIT20S0F7ZJQeOlc/T1-%C2%B7-PicoPato-%C2%B7-Laura-Rubio?node-id=33-62&t=iR2TMuebXli6hejj-1)
 *   📱 **[Prototipo Interactivo de Alta Fidelidad]** -> [PROTOTIPO_PLAY](https://www.figma.com/proto/Z7zB8doIT20S0F7ZJQeOlc/T1-%C2%B7-PicoPato-%C2%B7-Laura-Rubio?node-id=55-1337&p=f&viewport=121%2C-40%2C0.54&t=kAv8HwdBjPDAOXoE-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=55%3A1337&page-id=33%3A62)
 
-
 ---
 
 ## 3. El enfoque UX: Diseño para el mundo real
